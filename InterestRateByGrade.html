@@ -454,7 +454,7 @@
     .attr('class', 'd3-tip')
     .offset([-10, 0])
     .html(function (d) {
-      return "<strong>Monthly_Payment:</strong> <span style='color:#cf4b35'>" + d.Monthly_Payment + "</span>";
+      return "<strong>Monthly_Payment:$</strong> <span style='color:#cf4b35'>" + d.Monthly_Payment + "</span>";
     })
 
   var svg_m = d3.select("#MonthlyPayment")
