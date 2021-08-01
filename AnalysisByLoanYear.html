@@ -136,14 +136,14 @@
 		<div id="AboutTheVisualization" class="tabcontent" style="text-align:justify">
 			<div>
 				<p align=left>
-					The visualization project is following the Interactive slideshow narrative visualization structure.
-					This slide represents the Analysis of Loan Amount by Year and Purpose of Loan.
-					Users could trigger the Slide based on the selection of the year.
+					The visualization project follows the Interactive slideshow narrative visualization structure.
+					This slide represents the Analysis of Loan Amount by Year and the Purpose of Loan.
+					Users can trigger the Slide based on the selection of the year.
 				</p>
 				<p>
 					<b>User Interface Events</b>
-					The navigation buttons at the top will help user navigate between pages.
-					User interacts by clicking on the button or menu items to navigate to various part of this
+					The navigation buttons at the top helps user navigate between pages.
+					User interacts by clicking on the button or menu items to navigate to various parts of this
 					visualzation story.
 					The hover event allows proper positioning of the tooltip.
 				</p>
@@ -165,7 +165,7 @@
 					<b>Parameters</b>
 					This section is hyper linked to all the pages of the Narrative Visualization via Menu Buttons on the
 					top.
-					The name of the target section is passed as an input paramter to the buttons and navgiation bar
+					The name of the target section is passed as an input paramter to the buttons and navigation bar
 					items.
 					The chart uses the D3 Library.
 					The data for the chart is passed from a TSV file which is stored in the data folder, which is then
@@ -178,10 +178,7 @@
 					Lending club data was downloaded from here <a
 						href="https://www.lendingclub.com/info/download-data.action"> Download Lending Club Data </a>,
 					from inception of Lending club in 2007 to 2017Q1 in the format of CSV files.
-					Data was cleaned by removing the headers and footers from all the 9 files using PySpark and created
-					a clean file with first row as the header and all the remaining 1 million rows as the values. Data
-					with null values and data for year 2017 was filtered to give a better perspective for the data.
-					Then the TSV file was created by SparkDataFrame
+					Data was cleansed python, pyspark and dataframes.
 				</p>
 			</div>
 		</div>
